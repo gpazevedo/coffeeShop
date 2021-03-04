@@ -30,3 +30,5 @@ The balance output: for each "user" the cost of the coffee ordered ("order_total
 
 1) Setup a running application, able to be tested and returning an empty array
 2) It returns an empty Balance array
+3) payments: Builds a Balance with the payers
+4) payments: Builds a Balance with the total paid by each payer
