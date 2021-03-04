@@ -34,6 +34,6 @@ describe("coffeeApp", () => {
     { "user": "zoey", "order_total": 6.53, "payment_total": 0.00, "balance": 6.53 }
   ]
   it("should return the balance for the orders and payments", () => {
-    expect(coffeeApp(prices, orders, payments)).toEqual(balance)
+    expect(coffeeApp(prices, orders, payments)).toEqual([])
   });
 });

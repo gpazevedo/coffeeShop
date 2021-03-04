@@ -23,3 +23,9 @@ The "payments.json" data input provides a flux of payments. What users have alre
 ### Data Output
 
 The balance output: for each "user" the cost of the coffee ordered ("order_total"), what users have paid for already ("payment_total") and what is still owed ("balance").
+
+## Solution
+
+### Development, step by step
+
+1) Setup a running application, able to be tested and returning an empty array
