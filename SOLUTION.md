@@ -29,3 +29,4 @@ The balance output: for each "user" the cost of the coffee ordered ("order_total
 ### Development, step by step
 
 1) Setup a running application, able to be tested and returning an empty array
+2) It returns an empty Balance array
