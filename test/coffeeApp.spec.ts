@@ -33,7 +33,35 @@ describe("coffeeApp", () => {
     { "user": "rochelle", "order_total": 4.50, "payment_total": 4.50, "balance": 0.00 },
     { "user": "zoey", "order_total": 6.53, "payment_total": 0.00, "balance": 6.53 }
   ]
-  it("should return the balance for the orders and payments", () => {
-    expect(coffeeApp(prices, orders, payments)).toEqual([])
+  it("should return the empty balance", () => {
+    expect(coffeeApp([], [], [])).toEqual([])
   });
+
+  it("should return the Balance with total payment for each userts", () => {
+    const payments = [
+      { "user": "coach", "amount": 2.50 },
+      { "user": "ellis", "amount": 2.60 },
+      { "user": "rochelle", "amount": 4.50 },
+      { "user": "ellis", "amount": 0.65 }
+    ];
+    const balance = [{
+      "balance": -2.50,
+      "order_total": 0,
+      "payment_total": 2.50,
+      "user": "coach"
+    }, {
+      "balance": -3.25,
+      "order_total": 0,
+      "payment_total": 3.25,
+      "user": "ellis",
+    }, {
+      "balance": -4.50,
+      "order_total": 0,
+      "payment_total": 4.50,
+      "user": "rochelle",
+    }
+    ];
+    expect(coffeeApp([], [], payments)).toEqual(balance)
+  })
+
 });

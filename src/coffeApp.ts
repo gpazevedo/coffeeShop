@@ -1,8 +1,10 @@
 // Define your types (prices, orders, payments and balance)
 // 
 import { Balance } from './Balance'
-import {Payment} from './Payment'
+import { Payment } from './Payment'
+import { balanceFromPayments } from './payments'
 
 export function coffeeApp(prices: any, orders: any, payments: Payment[]): Balance[] {
-  return []
+
+  return balanceFromPayments(payments)
 }
