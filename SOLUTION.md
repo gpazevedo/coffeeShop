@@ -35,3 +35,4 @@ The balance output: for each "user" the cost of the coffee ordered ("order_total
 5) coffeeApp: Builds a Balance with the total paid by each payer
 6) orders module: Builds a balance with the users that ordered
 7) orders module: Builds a balance with the orders with unique price
+8) balances module: Consolidates 2 balances
