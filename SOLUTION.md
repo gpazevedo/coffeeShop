@@ -26,6 +26,10 @@ The balance output: for each "user" the cost of the coffee ordered ("order_total
 
 ## Solution
 
+### Architecture Design
+
+![Architecture](./Modules.jpg "Components Diagram")
+
 ### Development, step by step
 
 1) Setup a running application, able to be tested and returning an empty array
