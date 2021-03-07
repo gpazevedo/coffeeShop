@@ -64,4 +64,7 @@ describe("coffeeApp", () => {
     expect(coffeeApp([], [], payments)).toEqual(balance)
   })
 
+  it("should build a complete balance", () => {
+    expect(coffeeApp(prices, orders, payments)).toEqual(balance)
+  })
 });

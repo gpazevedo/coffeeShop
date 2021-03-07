@@ -36,3 +36,4 @@ The balance output: for each "user" the cost of the coffee ordered ("order_total
 6) orders module: Builds a balance with the users that ordered
 7) orders module: Builds a balance with the orders with unique price
 8) balances module: Consolidates 2 balances
+9) Consolidated Balance with real prices
