@@ -1,5 +1,5 @@
 import { Order } from '../src/Order'
-import { Balance } from '../src/Balance'
+import { Balance } from '../src/balance'
 import { balanceFromOrders } from '../src/orders'
 
 const orders = [

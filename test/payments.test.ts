@@ -1,6 +1,6 @@
 import { balanceFromPayments } from '../src/payments'
 import { Payment } from '../src/Payment'
-import { Balance } from '../src/Balance'
+import { Balance } from '../src/balance'
 
 describe("Payments", () => {
   it("should return a empty Balance array for a empty Payment array", () => {

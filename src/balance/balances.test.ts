@@ -1,4 +1,4 @@
-import { consolidateBalances } from '../src/balances'
+import { consolidateBalances } from './balances'
 
 describe("Balances", () => {
     const balance1 = [{

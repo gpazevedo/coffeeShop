@@ -1,5 +1,5 @@
 import { Payment } from './Payment'
-import { Balance } from './Balance'
+import { Balance } from './balance/Balance'
 import { money } from './money'
 
 export function balanceFromPayments(payments: Payment[]): Balance[] {

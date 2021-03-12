@@ -1,5 +1,5 @@
 import { Order } from './Order'
-import { Balance } from './Balance'
+import { Balance } from './balance/Balance'
 import { CalcPrice } from './prices'
 import { money } from './money'
 

@@ -1,5 +1,6 @@
 *.d.ts
 .vscode
+out
 
 # CDK asset staging directory
 .cdk.staging

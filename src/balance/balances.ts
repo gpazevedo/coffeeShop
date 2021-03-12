@@ -1,5 +1,5 @@
 import { Balance } from './Balance'
-import { money } from './money'
+import { money } from '../money'
 
 export function consolidateBalances(balance1: Balance[], balance2: Balance[]): Balance[] {
   const balance1Map: Map<string, Balance> = mapBalance(new Map(), balance1)
