@@ -1,7 +1,7 @@
 // Define your types (prices, orders, payments and balance)
 // 
 import { Balance } from './balance'
-import { balanceFromOrders } from './orders'
+import { balanceFromOrders } from './order'
 import { Payment } from './payment'
 import { balanceFromPayments } from './payment/payments'
 import { makeDrinkSizePrice } from './prices'

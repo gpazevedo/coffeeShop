@@ -1,7 +1,7 @@
 import { Order } from './Order'
-import { Balance } from './balance/Balance'
-import { CalcPrice } from './prices'
-import { money } from './money'
+import { Balance } from '../balance'
+import { CalcPrice } from '../prices'
+import { money } from '../money'
 
 export function balanceFromOrders(orders: Order[], drinkSizePrice: CalcPrice): Balance[] {
 

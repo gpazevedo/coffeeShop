@@ -1,6 +1,4 @@
-import { Order } from '../src/Order'
-import { Balance } from '../src/balance'
-import { balanceFromOrders } from '../src/orders'
+import { balanceFromOrders } from './orders'
 
 const orders = [
   { "user": "coach", "drink": "long black", "size": "medium" },
