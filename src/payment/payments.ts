@@ -1,6 +1,6 @@
 import { Payment } from './Payment'
-import { Balance } from './balance/Balance'
-import { money } from './money'
+import { Balance } from '../balance/Balance'
+import { money } from '../money'
 
 export function balanceFromPayments(payments: Payment[]): Balance[] {
   const balanceMap = payments.reduce<Map<string, Balance>>((acc, payment) => {

@@ -2,9 +2,8 @@
 // 
 import { Balance } from './balance'
 import { balanceFromOrders } from './orders'
-import { Payment } from './Payment'
-import { balanceFromPayments } from './payments'
-import { Price } from './Price'
+import { Payment } from './payment'
+import { balanceFromPayments } from './payment/payments'
 import { makeDrinkSizePrice } from './prices'
 import { consolidateBalances} from './balance/balances'
 
