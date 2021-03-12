@@ -4,7 +4,7 @@ import { Balance } from './balance'
 import { balanceFromOrders } from './order'
 import { Payment } from './payment'
 import { balanceFromPayments } from './payment/payments'
-import { makeDrinkSizePrice } from './prices'
+import { makeDrinkSizePrice } from './price'
 import { consolidateBalances} from './balance/balances'
 
 export function coffeeApp(prices: any, orders: any, payments: Payment[]): Balance[] {
